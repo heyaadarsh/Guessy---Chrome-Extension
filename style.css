@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 5px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 500px;
+    height: 350px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.top img{
+    width: 30%;
+}
+
+.top2 h1{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+form{
+    margin-top: 14px;
+}
+
+form input{
+    border: 0;
+    outline: 0;
+    border: 2px solid blue;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+#sbt{
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px;
+    width: 80px;
+}
+
+.lowOrHi{
+    background-color: wheat;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 7px;
+    font-weight: 400;
+}
+
+.prevGuess{
+    background-color: rgb(79, 78, 78);
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.remGuess{
+    background-color: black;
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#restart{
+    cursor: pointer;
+    text-decoration: underline;
+}
